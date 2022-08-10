@@ -17,28 +17,33 @@ code {
 
 .main-layout {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.logo{
+  width:100%;
+  max-width: 100px;
 }
 
 nav {
   background-color: #363a45;
-  height: 100vh;
+  height: 30vh;
   margin-right: 15px;
-  overflow-y: scroll;
   text-align: center;
-  width: 250px;
+  width: 100%;
+  display: block;
 }
 nav ul {
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   padding-left: 0;
 }
 
 nav li {
   list-style: none;
-  margin-bottom: 10px;
+  margin: 10px;
 }
 
 nav li a {
